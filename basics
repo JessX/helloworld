@@ -1,0 +1,7 @@
+public class basics {
+	//public static void main(String[] args) 
+	
+}
+/*args means argument. Here we haven't specified any. [] indicates an array of strings, not just one.
+*arguments begin counting at 0. Strings count at one. String one = args [0].
+*/
