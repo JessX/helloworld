@@ -1,0 +1,7 @@
+public class CompactIf {
+	public static void main(String[] args) {
+		int age = 18;
+		System.out.println(age < 20 ? "you are a teen" : "you are an adult");
+	}
+}
+//(condition ? "true" : "false")
