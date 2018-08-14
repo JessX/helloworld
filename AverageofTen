@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Average {
+	public static void main(String[] args) {
+		int counter = 0, totals = 0, average, score;
+		Scanner input = new Scanner (System.in);
+		
+		
+		
+		while (counter <=10) {
+			score = input.nextInt();
+			totals = totals + score;
+			++counter;
+			
+		}
+		average = totals/10;
+		System.out.println(average);
+	}
+}
