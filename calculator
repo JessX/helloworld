@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class calulator {
+	public static void main(String args []) {
+		Scanner typein = new Scanner(System.in);
+		double fnum, snum, ans; 
+		System.out.println("Enter first number");
+		fnum = typein.nextDouble();
+		System.out.println("Enter second number");
+		snum = typein.nextDouble();
+		ans = fnum + snum;
+		System.out.println(ans);
+}
+}
