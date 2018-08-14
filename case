@@ -1,0 +1,19 @@
+public class Case {
+	public static void main(String[] args) {
+	int age;
+	age = 1;
+			
+			switch (age) {
+			case 1:
+				System.out.println("you are a fetus");
+				break;
+			case 2:
+				System.out.println("you are a smol bean");
+				break;
+			default:
+				System.out.println("you a grown ass man");
+				break;
+			
+			}
+	}
+}
