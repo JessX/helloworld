@@ -1,0 +1,11 @@
+public class DoWhile {
+	public static void main(String[] args) {
+		int count = 15;
+		
+		do {
+			System.out.println(count);
+			count++;
+		}while (count <= 10);
+	}		
+}
+//ensures at least one loop is ran before counter is taken into account. "do" occurs before "while".
