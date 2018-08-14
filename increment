@@ -1,0 +1,13 @@
+public class increment {
+public static void main(String[] args) {
+	double tuna = 88;
+	++tuna;
+	System.out.println(tuna);
+	}
+}
+
+/* ++ adds one to value or 
+ * System.out.println(++tuna) 
+ * this is pre incrementing. Post incrementing (tuna++) outputs, then changes variable. Would need to print again
+ * use -- to subtract 
+ */
