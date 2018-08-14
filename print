@@ -1,0 +1,15 @@
+public class apples {
+public static void main(String args[]) {
+	double tuna;
+	//double=number with decimal point. Tuna is our variable name 
+	tuna = 5.28;
+	
+	System.out.print("i want ");
+	System.out.print(tuna);
+	System.out.println(" movies");
+	System.out.print("next line");
+	
+	}
+}
+//println moves the cursor to the next line AFTER ITS DONE
+//print keeps the cursor on the same line AFTER 
