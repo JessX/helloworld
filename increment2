@@ -1,0 +1,9 @@
+public class increment2 {
+	public static void main(String[] args) {
+		double number = 99;
+		number += 9;
+		System.out.println(number);
+	}
+}
+
+//assign new value to old variable. can use / or *
