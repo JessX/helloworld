@@ -1,0 +1,16 @@
+public class ifstatement {
+	public static void main(String[] args) {
+	int number = 6;
+	if (number == 9) {
+		System.out.println("correct");
+	}
+	else {
+		System.out.println("false");
+		}
+	}
+}
+
+/* == exactly equal. One = means assigning value 
+ * != not equal 
+ * >< or <= >= less than and equal to...
+ */
