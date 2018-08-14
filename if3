@@ -1,0 +1,15 @@
+public class If {
+	public static void main(String[] args) {
+		int age = 60;
+		if (age < 90) {
+			System.out.println("you are young");
+		}else{
+			System.out.println("you are old");
+			if (age > 100) {
+				System.out.println("wow you're REALLY old");
+			}
+		}
+	}
+}
+//if statements within other if statements. 
+//We normally don't need brackets, but for nested statements it needs to complete a loop, then decide to enter 
