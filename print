@@ -1,0 +1,13 @@
+public class HelloWorld {
+	 public static void main(String[] args) {
+	        System.out.println("Hello World!"); 
+}
+}
+
+//everything in java begins with a class. Print line. Within class = method.
+/*multiple lines of code
+ * 
+ */
+
+//variable in java = place holder for  something else. e.g let variable = 56.
+
