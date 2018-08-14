@@ -1,0 +1,13 @@
+public class ElseIf {
+	public static void main(String[] args) {
+		int age = 55;
+		
+		if (age > 80) 
+			System.out.println("you are a senior citizen");
+	else if (age > 50)
+			System.out.println("you are having a mid life crisis");		
+	else 
+			System.out.println("you are a young buck");
+	}
+}
+//ensure 'else if' runs before 'else'. 'else' is last resort, meaning it runs at the very end.
