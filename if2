@@ -1,0 +1,17 @@
+public class mutlipleif {
+	public static void main(String[] args) {
+		int boy, girl; 
+		boy = 70;
+		girl = 17;
+		
+		if (boy >= 18 && girl >= 18) {
+			System.out.println("you are old enough to enter");
+		}else {
+			System.out.println("go back to school");
+		}
+		
+	}
+}
+//if (___ && ___) means both tests on either side must be satisfied 
+//if (__ || __) means one of the tests must be true. OR
+// ; in java means end of statement 
