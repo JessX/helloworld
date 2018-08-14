@@ -1,0 +1,23 @@
+package test;
+import java.util.Scanner;
+
+public class main {
+	public static void main(String[] args) {
+		int age, age2;
+		double ans;
+		Scanner input = new Scanner (System.in);
+		
+		System.out.println("how old are you?");
+		age = input.nextInt();
+		
+		System.out.println("how old is your partner?");
+		age2 = input.nextInt();
+		
+		ans = age/2 + 7;
+		if (age2 < ans) {
+			System.out.println("theyre too young ew");
+		}else {
+			System.out.println("go ahead");
+		}
+	}
+}
