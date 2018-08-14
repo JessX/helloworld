@@ -1,0 +1,14 @@
+import java.util.Scanner;
+//java -> utilities -> scanner 
+
+public class bananas {
+	public static void main (String args[]) {
+		Scanner bucky = new Scanner (System.in);		
+		System.out.println(bucky.nextLine());
+	
+	}
+}
+/*Scanner gets info from keyboard.bucky = variable, = info from keyboard.
+ * System.in = input for keyboard = bucky variable value.
+ * next line = pause and wait for user to enter next line 
+ */
