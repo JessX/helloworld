@@ -1,0 +1,11 @@
+package boyfriend;
+
+public class forloop {
+	public static void main(String[] args) {
+		for (int counter=1;counter<=10;counter++) {
+				System.out.println(counter);
+		}
+	}
+}
+
+//3 parameteres: start, end, increment. ; inbetween	
