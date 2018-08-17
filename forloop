@@ -9,3 +9,4 @@ public class forloop {
 }
 
 //3 parameteres: start, end, increment. ; inbetween	
+//can use +=3 to increment by 3
