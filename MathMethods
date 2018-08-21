@@ -1,0 +1,7 @@
+Math.abs gives absolute value
+Math.ceil rounds up 
+Math.floor rounds down
+Math.max(number1,number2) gives the maximum of the two
+Math.min(number1, number2) gives smaller
+Math.pow(a,b) gives a^b
+Math.sqrt(number) gives the square ro
