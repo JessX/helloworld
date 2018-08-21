@@ -8,6 +8,6 @@ public class main {
 		for (int counter = 0;counter<array.length;counter++) {
 			sum+=array[counter];
 		}
-		System.out.println(sum);
+		System.out.println("the sum of the values = " + sum);
 	}
 }
