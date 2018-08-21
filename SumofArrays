@@ -1,0 +1,13 @@
+import java.lang.reflect.Array;
+
+public class main {
+	public static void main(String[] args) {
+		int array[] = {12,56,23,86};
+		int sum = 0;
+		
+		for (int counter = 0;counter<array.length;counter++) {
+			sum+=array[counter];
+		}
+		System.out.println(sum);
+	}
+}
