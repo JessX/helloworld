@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class main {
+	public static void main(String[] args) {
+		Random dice = new Random(); //empty variables. Not like scanner (system.in)
+		int counter = 0;
+		double number;
+		
+		for (counter = 0;counter<=10;counter++) {
+			number = 1 + 5*dice.nextDouble();
+			System.out.println(number);
+		}
+	}
+}
+//min = 1, max = 6
