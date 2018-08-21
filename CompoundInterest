@@ -1,0 +1,16 @@
+public class main {
+	public static void main(String[] args) {
+			double amount, original = 1000, interest = 0.1;
+			int years = 0;
+			
+			for (years = 0;years <=10; years++) {
+				amount = original*Math.pow(1 + interest, years);
+				System.out.println("year " + years + ": " + amount);
+			}
+		}
+	}
+
+/*A = P(1+R)^n
+ *A=amount of money, P=original amount, R=interest, n=duration.
+ *Math.pow(arg0, arg1) = method that returns arg0^arg1
+ */
